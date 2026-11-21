@@ -1,0 +1,45 @@
+SOS Commander Center includes third-party runtime libraries. The game's own
+source files are not included in this distribution. "Not open source" does not
+make bundled Python bytecode impossible to inspect or extract.
+
+PySide6 / Qt for Python 6.12.0 and shiboken6 6.12.0
+The bundled PySide6_Essentials and PySide6_Addons components are version 6.12.0.
+License option in the installed community package: LGPL-3.0-only (also GPL
+options). See Licenses/LGPL-3.0.txt and Licenses/GPL-3.0.txt.
+Official licensing details: https://doc.qt.io/qtforpython-6/
+Qt licensing and commercial option: https://doc.qt.io/qt-6/licensing.html
+The Qt DLLs and plugins are separate files in _internal. Do not remove or
+obstruct applicable rights to replace the LGPL components.
+Qt source repository and release tags:
+https://code.qt.io/cgit/qt/qtbase.git/
+Qt for Python sources: https://code.qt.io/cgit/pyside/pyside-setup.git/
+No changes were made to the bundled Qt or PySide6 library source code.
+Third-party components within Qt are documented at:
+https://doc.qt.io/qtforpython-6/licenses.html
+https://doc.qt.io/qt-6/licenses-used-in-qt.html
+
+Qt Multimedia bundles FFmpeg 9.0.1 as separate DLLs in _internal/PySide6.
+The Qt 6.12 third-party register lists FFmpeg under LGPL-2.1-or-later
+with additional component licenses. See Licenses/FFmpeg-LGPL-2.1.txt and
+https://doc.qt.io/qt-6/licenses-used-in-qt.html. FFmpeg source:
+https://github.com/FFmpeg/FFmpeg/tree/n9.0.1
+Do not prevent users from replacing the separate FFmpeg DLLs.
+
+Python 3.13 runtime
+See Licenses/Python-3.13-LICENSE.txt.
+
+pyttsx3 2.99 and pywin32 312
+See the corresponding files in Licenses/ for the bundled license notices.
+The unmodified pyttsx3 source for version 2.99 is available from:
+https://github.com/nateshmbhat/pyttsx3/releases/tag/v2.99
+comtypes 1.5.0 is MIT licensed; see Licenses/comtypes-LICENSE.txt.
+The unmodified comtypes source is available from:
+https://github.com/enthought/comtypes/releases/tag/1.5.0
+
+PyInstaller was used to produce the executable. Its license exception allows
+commercial applications, subject to the licenses of bundled dependencies:
+https://pyinstaller.org/en/stable/license.html
+
+Before a public or commercial release, verify all licenses of the exact
+bundled components, music/sound asset rights, trademarks, and store rules.
+This notice is not a legal clearance certificate.

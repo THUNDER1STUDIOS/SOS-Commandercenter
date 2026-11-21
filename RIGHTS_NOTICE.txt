@@ -1,0 +1,15 @@
+SOS COMMANDER CENTER - RIGHTS NOTICE
+Copyright (c) 2026 Thunder Studios. All rights reserved.
+
+The original game code, design, scenarios, original procedural audio and
+artwork in this package are proprietary. No source-code license is granted
+by distributing this Windows build. Redistribution, modification, or use of
+the original game content requires permission from the rights holder.
+
+Third-party runtime libraries are governed by their own licenses and are
+excluded from the proprietary terms above. Their notices and license texts
+are in THIRD_PARTY_NOTICES.txt and Licenses. The applicable rights to use,
+study, modify and replace those libraries remain intact.
+
+This is a fictional dispatch simulation. It is not connected to real
+emergency calls or dispatch services.
